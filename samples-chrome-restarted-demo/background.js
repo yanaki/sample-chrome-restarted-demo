@@ -132,6 +132,6 @@ chrome.app.runtime.onRestarted.addListener(function() {
 
 function logLocalStorage() {
   chrome.storage.local.get(null, function(data) {
-    console.log("local storage:", data);
+    alert(JSON.stringify(data));
   });
 }
