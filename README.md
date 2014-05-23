@@ -15,7 +15,7 @@ Each Chrome API might depend on another Chrome API or a core Apache Cordova plug
 
 ## Sample Overview
 
-The Telerik AppBuilder team has modified the existing Chrome Restarted Event mobile sample to make it compatible with Telerik AppBuilder. You can find the source Chrome Calculator mobile sample <a href="https://github.com/Icenium/sample-chrome-restarted-demo/tree/master/sample-chrome-restarted-demo" target="_blank">here</a>. This sample shows how to detect if the application is being unexpectedly terminated using an onRestarted event. The sample creates a new counter on launch and restores any existing counters across app restarts.
+The Telerik AppBuilder team has modified the existing Chrome Restarted Event mobile sample to make it compatible with Telerik AppBuilder. You can find the source Chrome restarted mobile sample <a href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/restarted-demo" target="_blank">here</a>. This sample shows how to detect if the application is being unexpectedly terminated using an onRestarted event. The sample creates a new counter on launch and restores any existing counters across app restarts.
 
 The sample is initialized as a Chrome app. For more information about the development of Chrome apps, including the app container, click <a href="https://developer.chrome.com/apps/first_app" target="_blank">here</a>. 
 
