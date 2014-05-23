@@ -1,9 +1,9 @@
 samples-chrome-restarted-demo
 ======================
 
-This sample shows how to detect if the hybrid mobile app is being unexpectedly terminated using Google Chrome APIs in Telerik AppBuilder. You can clone this sample in Telerik AppBuilder, explore and modify the code, and build and run it on Android or iOS devices.
+This sample shows how to detect if a hybrid mobile app is being unexpectedly terminated using Google Chrome APIs in Telerik AppBuilder. You can clone this sample in Telerik AppBuilder, explore and modify the code, and build and run it on Android or iOS devices.
 
-This sample application creates a new counter on launch and restores any existing counters across app restarts
+This sample lets you create a new counter on launch and restore any existing counters across app restarts.
 
 ## Telerik AppBuilder and Chrome APIs
 
@@ -23,9 +23,9 @@ All required Chrome APIs, including mobile and desktop APIs on which the app rel
 
 The sample shows how to use the following methods and objects of the mobile Google Chrome APIs.
 
-* **Runtime:**&nbsp;Lets you manage the app lifecycle
-* **Window:**&nbsp;Lets you create windows
-* **storage:**&nbsp;Lets you manage recorded data(restarts, etc) in the local storage. 
+* **runtime:**&nbsp;Lets you manage the app lifecycle.
+* **window:**&nbsp;Lets you create windows.
+* **storage:**&nbsp;Lets you manage recorded data (restarts and others) in the local storage. 
 
 ## Cloning the Sample
 
@@ -80,4 +80,4 @@ With Telerik AppBuilder, you can deploy apps on device wirelessly or via cable c
 
 ## License
 
-[License](LICENSE.md)
+This sample is licensed under the Apache License, Version 2.0. For more information, see [License](LICENSE.md).
